@@ -6,6 +6,7 @@ public class Person {
     private double height;
     private double weight;
     private double BMI;
+
     public Person(){}
 
     public Person(String n, String s, double h, double w){
