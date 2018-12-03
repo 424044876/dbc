@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e81f0b36-fb5f-47e8-9896-84cadc777b77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/fang/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fang/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/fang/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/fang/IllegalMatrixMultiply.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dbc/com/fang/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dbc/com/fang/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dbc/com/fang/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dbc/com/fang/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dbc/com/fang/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dbc/com/fang/Matrix.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/fang/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fang/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fang/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fang/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/fang/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fang/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/fang/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/fang/Matrix.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,44 +26,57 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="java" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2291" />
-          <entry key="txt" value="9" />
+          <entry key="java" value="2364" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2291" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="JAVA" value="2364" />
+          <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/fang/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="297">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/fang/IllegalMatrixMultiply.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+              <folding>
+                <element signature="e#91#92#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/fang/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            <state relative-caret-position="204">
+              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -91,8 +101,10 @@
         <option value="$PROJECT_DIR$/src/com/fang/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/com/fang/Circle.java" />
         <option value="$PROJECT_DIR$/src/com/fang/Shape.java" />
-        <option value="$PROJECT_DIR$/src/com/fang/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/fang/IllegalMatmul.java" />
+        <option value="$PROJECT_DIR$/src/com/fang/IllegalMatrixMultiply.java" />
         <option value="$PROJECT_DIR$/src/com/fang/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/com/fang/Main.java" />
       </list>
     </option>
   </component>
@@ -135,7 +147,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543838919605" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543839859118" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543829544885</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.3">
+      <created>1543838913303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543838913303</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -198,13 +217,13 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24248926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3121019" />
+      <window_info anchor="bottom" id="Version Control" weight="0.31082803" />
       <window_info anchor="bottom" id="Terminal" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32866243" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32866243" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -224,19 +243,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/fang/Main.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Person.java">
@@ -303,17 +311,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fang/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/fang/IllegalMatmul.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/fang/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        <state relative-caret-position="204">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fang/IllegalMatrixMultiply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/fang/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>

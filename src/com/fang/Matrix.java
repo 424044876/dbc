@@ -21,11 +21,10 @@ public class Matrix {
         mat = new double[r][c];
     }
 
-    public Matrix Matrix_multiply(Matrix b){
+    public Matrix Matrix_multiply(Matrix b) throws IllegalMatrixMultiply{
         Matrix result;
         if (this.column != b.row){
-            result = new Matrix(0, 0);
-            return result;
+            throw new IllegalMatrixMultiply();
         }
         result = new Matrix(this.row, b.column);
         for (int i = 0; i < this.row ; i += 1){
